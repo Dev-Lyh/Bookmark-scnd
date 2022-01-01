@@ -1,0 +1,71 @@
+header {
+  height: 13.7rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 17rem;
+}
+header > nav > a {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-left: 4.4rem;
+  color: var(--Very-Dark-Blue);
+  font-weight: 500;
+}
+header > nav > a.btnBorder[href="#Login"] {
+  color: var(--Soft-Red);
+  border: .2rem solid var(--Soft-Red);
+}
+section#Intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6.5rem 10rem;
+
+  position: relative;
+}
+section#Intro> div > h1 {
+  font-size: 4.6rem;
+  line-height: 5.451rem;
+  color: var(--Very-Dark-Blue);
+  letter-spacing: .4px;
+  margin-bottom: 2.5rem;
+}
+section#Intro > div.imgbfr::after {
+  content: '';
+  /* display: block; */
+  position: absolute;
+  background-color: var(--Soft-Blue);
+  width: 51.3rem;
+  height: 35.2rem;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0px 0px 0px 17.3rem;
+}
+a.btnBorder[href="#GetChrome"] {
+  color: var(--Soft-Blue);
+  border: .2rem solid var(--Soft-Blue);
+  margin-right: 1.5rem;
+  font-weight: bold;
+  letter-spacing: .4px;
+}
+a.btnBorder[href="#GetFirefox"] {
+  color: var(--Grayish-Blue);
+  border: .2rem solid var(--Grayish-Blue);
+  font-weight: bold;
+  letter-spacing: .4px;
+}
+section#Features {
+  padding: 2.1rem 17rem;
+  text-align: center;
+}
+section#Features > h2 {
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 2.6rem;
+}
+input[type="radio"] {
+  display: none;
+}
