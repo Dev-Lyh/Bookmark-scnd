@@ -7,9 +7,10 @@
 }
 html {
   --Soft-Blue: hsl(231, 69%, 60%);
-  --Soft-Red: hsl(0, 94%, 66%);
-  --Grayish-Blue: hsl(229, 8%, 60%);
+  --Soft-Red: #fa5757;
+  --Grayish-Blue: #9194a1;
   --Very-Dark-Blue: hsl(229, 31%, 21%);
+  --white: hsl(255, 100%, 100%);
 
   font-size: 62.5%;
 }
@@ -26,10 +27,19 @@ a {
 }
 h2 {
   font-size: 3.3rem;
-  letter-spacing: .1px;
+  font-weight: 400;
+  color: var(--Very-Dark-Blue);
+  margin-bottom: 3.7rem;
 }
 p {
   color: var(--Grayish-Blue);
   margin-bottom: 3.6rem;
   line-height: 2.133rem;
+}
+h3 {
+  font-size: 3.2rem;
+  margin-bottom: 2.6rem;
+}
+main {
+  padding-top: 8.7rem;
 }
